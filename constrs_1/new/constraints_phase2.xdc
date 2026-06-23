@@ -38,8 +38,8 @@ set_false_path -from [get_ports {nrst}] ##for the timing warning
 # set_output_delay 0.0    -min -clock sys_clk_pin [get_ports {pixel_out[*]}]
 
 ## pixel_valid output delay
-set_output_delay 90.425 -max -clock sys_clk_pin [get_ports {pixel_valid}]
-set_output_delay 0.0    -min -clock sys_clk_pin [get_ports {pixel_valid}]
+set_output_delay 90.425 -max -clock sys_clk_pin [get_ports {pool_valid}]
+set_output_delay 0.0    -min -clock sys_clk_pin [get_ports {pool_valid}]
 
 ## done output delay
 set_output_delay 90.425 -max -clock sys_clk_pin [get_ports {done}]
