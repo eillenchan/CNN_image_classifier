@@ -29,7 +29,7 @@ to generate pooled feature maps for subsequent CNN stages.
 
 ## CNN Processing Pipeline
 
-![CNN Processing Pipeline](images/cnn_pipeline.png)
+![CNN Processing Pipeline](images/cnn_pipeline.jpg)
 
 ## Features
 
